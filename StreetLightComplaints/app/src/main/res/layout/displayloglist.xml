@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#f46c6c">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Field Updated"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_column="1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toEndOf="@+id/textView19"
+                    android:layout_toRightOf="@+id/textView19"
+                    android:text="Remarks"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_column="2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toEndOf="@+id/textView20"
+                    android:layout_toRightOf="@+id/textView20"
+                    android:text="Enter By"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_column="3"
+                    android:layout_marginLeft="20dp"
+                    android:text="Entry Time"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/txtField"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="New Text"
+                    android:textColor="#b32929" />
+
+                <TextView
+                    android:id="@+id/txtRemark"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="20dp"
+                    android:text="New Text"
+                    android:textColor="#b32929" />
+
+                <TextView
+                    android:id="@+id/txtEnterBy"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_marginLeft="20dp"
+                    android:text="New Text"
+                    android:textColor="#b32929" />
+
+                <TextView
+                    android:id="@+id/txtEnterTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_marginLeft="20dp"
+                    android:text="New Text"
+                    android:textColor="#b32929" />
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+</LinearLayout>
